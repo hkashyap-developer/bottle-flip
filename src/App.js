@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Bottle from "./Components/Bottle/bottle.jsx"
+import Showcase from "./Components/Showcase/showcase.jsx"
+import PlayStationStats from "./Components/PlayStationStats/PlayStationStats.jsx"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Showcase />      
+      <Bottle />
+      <PlayStationStats />
+     
+
     </div>
   );
 }
